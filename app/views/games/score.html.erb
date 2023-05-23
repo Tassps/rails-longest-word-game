@@ -1,0 +1,11 @@
+<p>is</p>
+
+<%= @word %>
+<p>an english word?</p>
+<% if @english_word %>
+<%= "YES" %>
+<% else %>
+<%= "NO" %>
+<% end %>
+
+<%= link_to "Try again!", new_path %>
